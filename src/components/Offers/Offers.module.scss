@@ -1,0 +1,59 @@
+.line {
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    border: 1px dotted orange;
+}
+
+.general_wrapper {
+    display: block;
+    margin-top: 10px;
+    @media screen and (min-width: 768px){
+        display: flex;
+        margin-top: 20px;
+    }
+}
+.part_list{
+    @media screen and (min-width: 768px) {
+        width: 50%;
+    }
+}
+
+.title{
+    margin: 10px 0 20px 0;
+    color: orange;
+
+
+    @media screen and (min-width: 768px) {
+        margin-top: 30px;
+    }
+}
+
+.item {
+    padding: 20px;
+    display: flex;
+    text-align: left;
+
+    @media screen and (min-width: 768px) {
+        min-width: 350px;
+    }
+    @media screen and (min-width: 1280px) {
+        padding: 30px 20px;
+    }
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 30px 0 0 ;
+    background-color: orange;
+}
+
+.text{
+    margin-top: 10px;
+
+    @media screen and (min-width: 1280px) {
+        line-height: 1.7;
+    }
+}

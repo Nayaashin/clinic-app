@@ -1,0 +1,148 @@
+header {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    @media screen and (min-width: 320px) {
+        min-width: 320px;
+        // padding-left: 15px;
+        // padding-right: 15px;
+    }
+
+    @media screen and (min-width: 480px) {
+        min-width: 480px;
+    }
+
+    @media screen and (min-width: 768px) {
+        min-width: 768px;
+        padding: 0;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 100%;
+    }
+}
+.flex {
+    display: flex;
+    position: relative;
+}
+
+.text_logo {
+    font-size: 22px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.link_logo {
+    display: flex;
+    text-decoration: none;
+    color: orange;
+    width: 52px;
+    height: 52px;
+}
+
+.header_tooth {
+    background-color: orange;
+}
+
+/* ======================= */
+.tooth {
+    background-color: orange;
+}
+
+.link_wrapper {
+    width: 100%;
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 24px;
+    font-size: 25px;
+    font-weight: 500;
+    color: lightslategrey;
+}
+
+/* .link:hover {
+    color: blueviolet;
+    background-image: repeating-linear-gradient(to top, blueviolet , transparent 5px 50px);
+} */
+
+
+
+.btn_menu {
+    @media screen and (min-width: 320px) {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 11px;
+        width: 30px;
+        height: 30px;
+        background-color: inherit;
+        padding: 1px;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.icon_menu {
+    width: 26px;
+    height: 25px;
+    stroke: orange;
+    display: flex;
+}
+
+
+.link_panel {
+    @media screen and (min-width: 320px) {
+        min-width: 320px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+    }
+
+    @media screen and (min-width: 480px) {
+        min-width: 480px;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+// for navigation
+.parentListItem {
+    display: inline-block;
+    &:hover {
+        & .innerList {
+            display: inline-block;
+        }
+    }
+}
+.text{
+    //  outline: 1px solid red;
+    padding: 15px 24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: lightslategrey;
+}
+.text:hover {
+    color: orange;
+    background-image: repeating-linear-gradient(to top, orange, transparent 5px 50px);
+}
+.list{
+    display: grid;
+    position: absolute;
+}
+.innerList{
+    background-color: black;
+    display: none;
+}
+

@@ -1,0 +1,19 @@
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 14px;
+    font-size: 18px;
+    font-weight: 500;
+    color: lightslategrey;
+
+    @media screen and (min-width: 1280px) {
+        padding: 15px 24px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+.link:hover {
+    color: orange;
+    background-image: repeating-linear-gradient(to top, orange, transparent 5px 50px);
+}

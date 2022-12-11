@@ -1,0 +1,57 @@
+.wrap{
+    position: absolute;
+    right: 0px
+}
+
+.link_menu{
+    position: relative;
+    width: 200px;
+    padding: 0px 20px 20px 0;
+    background-color: black;
+    z-index: 1;
+
+    @media screen and (min-width: 480px) {
+        margin-left: 200px;
+    }
+}
+
+.btn_close {
+    @media screen and (min-width: 320px) {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 11px;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        padding: 1px;
+        z-index: 2;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.icon_close {
+    width: 26px;
+    height: 25px;
+    stroke: orange;
+    display: flex;
+}
+.ItemList{
+    position: relative;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: lightslategrey;
+}
+.ItemList:hover {
+    color: orange;
+    background-image: repeating-linear-gradient(to top, orange, transparent 5px 50px);
+}
+.absolute{
+    position: absolute;
+    left: -400px;
+    top: 0px;
+}
