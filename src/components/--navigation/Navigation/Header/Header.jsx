@@ -24,7 +24,7 @@ const Header = () => {
           <div className={style.flex}>
             <a href="" className={style.link_logo}>
               <img src={tooth} alt="" className={style.header_tooth} />
-              <p className={style.text_logo}>Триамед</p>
+              <p className={style.text_logo}>Tria Med</p>
             </a>
           </div>
 

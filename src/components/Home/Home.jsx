@@ -42,11 +42,11 @@ const Home = () => {
           <div className={style.content}>
             <div className={style.flex}>
               <img src={tooth} alt="" className={style.tooth} />
-              <p className={style.text_logo}>Триамед</p>
+              <p className={style.text_logo}>TriaMed Stomatology</p>
             </div>
             <div className={style.wrapper}>
               <p className={style.text}>
-                <span className={style.logo}>Триамед</span> имеет современный
+                <span className={style.logo}>TriaMed</span> имеет современный
                 стоматологический кабинет в центре города. Приглашаем детей, взрослых
                 так же пожилых людей. <br />
                 Команда опытных стоматологов ждет вас по адресу г. Бишкек, ул. Токтогула, 244

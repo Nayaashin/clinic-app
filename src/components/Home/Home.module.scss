@@ -71,7 +71,7 @@
 
     &:hover,
     &:focus {
-        color: orange;
+        color: rgb(33, 70, 139);
     }
 }
 
@@ -94,12 +94,15 @@
 }
 
 .text_logo {
-    font-size: 35px;
+    font-size: 40px;
     display: contents;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(12, 34, 78);
+    font-size: bold;
 }
 
 .tooth {
-    background-color: orange;
+    // background-color: rgb(128, 143, 170);
     width: 112px;
     height: 112px;
 }
@@ -145,9 +148,9 @@
 }
 
 .logo{
-    color: orange;
+    color: rgb(33, 30, 180);
     font-weight: 600;
-    font-style: italic;
+    font-style: bold;
     /* font-family: "Titillium Web"; */
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }

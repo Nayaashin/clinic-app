@@ -32,23 +32,24 @@ header {
     font-size: 22px;
     display: flex;
     margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .link_logo {
     display: flex;
     text-decoration: none;
-    color: orange;
+    color: rgb(105, 129, 173);
     width: 52px;
     height: 52px;
 }
 
 .header_tooth {
-    background-color: orange;
+    background-color: rgb(105, 129, 173);
 }
 
 /* ======================= */
 .tooth {
-    background-color: orange;
+    background-color: rgb(31, 14, 92);
 }
 
 .link_wrapper {
@@ -65,7 +66,7 @@ header {
     padding: 0px 24px;
     font-size: 25px;
     font-weight: 500;
-    color: lightslategrey;
+    color: rgb(89, 76, 146);
 }
 
 /* .link:hover {
@@ -95,7 +96,7 @@ header {
 .icon_menu {
     width: 26px;
     height: 25px;
-    stroke: orange;
+    stroke: rgb(10, 25, 53);
     display: flex;
 }
 

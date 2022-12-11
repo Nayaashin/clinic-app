@@ -1,5 +1,5 @@
 .wrapper {
-    background-color: orange;
+    background-color: rgb(105, 129, 173);
     display: inline-block;
     color: white;
     line-height: 1.6;
@@ -110,7 +110,7 @@
     left: -15%;
     width: 26px;
     height: 26px;
-    fill: white;
+    fill: rgb(14, 4, 53);
 }
 
 .phone, .email, .map{
@@ -124,7 +124,7 @@
     padding-right: 94px;
 }
 .svg {
-    fill: orange;
+    fill: black;
     width: 20px;
     height: 20px;
 }
@@ -163,5 +163,5 @@
 }
 .list_link:hover,
 .list_link:focus {
-    background-color: black;
+    background-color: rgb(12, 28, 58);
 }
