@@ -61,29 +61,28 @@ const Offers = () => {
             <div>
               <h2>Протезирование</h2>
               <p className={style.text}>
-                We offer many types of prosthetic work, from porcelain to
-                all-ceramic. Collaboration with a dental technician allows you
-                to achieve the perfect combination of colors. The best work is
-                an invisible work, identical to the patient's own teeth.
+                Мы предлагаем множество видов протезирования, от фарфора до
+                цельнокерамических изделий. Сотрудничество с зубным техником позволяет
+                добиться идеального сочетания цветов. Лучшая работа - это
+                невидимая работа, идентичная собственным зубам пациента.
               </p>
             </div>
           </div>
           <div className={style.item}>
-            <img src={root} className={style.img} alt="Endodontics" />
+            <img src={root} className={style.img} alt="Эндодонтия" />
             <div>
-              <h2>Endodontics / Root Canal Treatment</h2>
+              <h2>Эндодонтия / Лечение корневых каналов</h2>
               <p className={style.text}>
-                Working under magnification, using an endodontic micromotor,
-                together with the precision and perseverance of our doctors, is
-                the guarantee of the most accurate fildivng of the root canal
-                system. On-site inspection with x-rays.
+                Работа под увеличением, с использованием эндодонтического микромотора.
+                Вместе с точностью и настойчивостью наших врачей, обеспечена
+                гарантия максимально точного пломбирования корневого канала. Осмотр на месте с рентгеном.
               </p>
             </div>
           </div>
           <div className={style.item}>
-            <img src={impl} className={style.img} alt="Implantology" />
+            <img src={impl} className={style.img} alt="Имплантология" />
             <div>
-              <h2>Surgery / Implantology</h2>
+              <h2>Операция / Имплантология</h2>
               <p className={style.text}>
                 Выполняем все виды хирургических вмешательств с имплантатами.
                 Многолетний опыт работы в отделении челюстно-лицевой хирургии,
