@@ -14,13 +14,13 @@ const NavMob = ({ isOpenModal, handleClose }) => {
       <div className={style.link_menu}>
         <ul>
           <li>
-            <CustomeLink to="/">Home</CustomeLink>
+            <CustomeLink to="/">Главная</CustomeLink>
           </li>
           <li>
-            <CustomeLink to="/about">About</CustomeLink>
+            <CustomeLink to="/about">О нас</CustomeLink>
           </li>
           <li>
-            <CustomeLink to="/offers">Offers</CustomeLink>
+            <CustomeLink to="/offers">Услуги</CustomeLink>
           </li>
           {/* <li>
             <CustomeLink to="/prices">Prices</CustomeLink>
@@ -29,38 +29,36 @@ const NavMob = ({ isOpenModal, handleClose }) => {
             Prices
             <ul className={`${style.link_menu} ${style.absolute}`}>
               <li>
-                <CustomeLink to="/prices/general">General</CustomeLink>
+                <CustomeLink to="/prices/general">Общее</CustomeLink>
               </li>
               <li>
-                <CustomeLink to="/prices/prevention">Prevention</CustomeLink>
+                <CustomeLink to="/prices/prevention">Профилактика</CustomeLink>
               </li>
               <li>
-                <CustomeLink to="/prices/endodontics">Endodontics</CustomeLink>
+                <CustomeLink to="/prices/endodontics">Эндодонтия</CustomeLink>
               </li>
               <li>
-                <CustomeLink to="/prices/orthodontics">
-                  Orthodontics
-                </CustomeLink>
+                <CustomeLink to="/prices/orthodontics">Ортодонтия</CustomeLink>
               </li>
               <li>
-                <CustomeLink to="/prices/surgery">Surgery</CustomeLink>
+                <CustomeLink to="/prices/surgery">Операция</CustomeLink>
               </li>
               <li>
-                <CustomeLink to="/prices/prosthetics">Prosthetics</CustomeLink>
+                <CustomeLink to="/prices/prosthetics">Протезирование</CustomeLink>
               </li>
               <li>
-                <CustomeLink to="/prices/children">Kid's dentistry</CustomeLink>
+                <CustomeLink to="/prices/children">Детская стоматология</CustomeLink>
               </li>
               <li>
-                <CustomeLink to="/prices/xray">X-ray</CustomeLink>
+                <CustomeLink to="/prices/xray">Рентген</CustomeLink>
               </li>
             </ul>
           </li>
           <li>
-            <CustomeLink to="/gallery">Gallery</CustomeLink>
+            <CustomeLink to="/gallery">Галерея</CustomeLink>
           </li>
           <li>
-            <CustomeLink to="/about">About</CustomeLink>
+            <CustomeLink to="/about">О нас</CustomeLink>
           </li>
         </ul>
       </div>

@@ -24,54 +24,56 @@ const Header = () => {
           <div className={style.flex}>
             <a href="" className={style.link_logo}>
               <img src={tooth} alt="" className={style.header_tooth} />
-              <p className={style.text_logo}>Your dantist</p>
+              <p className={style.text_logo}>Триамед</p>
             </a>
           </div>
 
           <div className={style.link_wrapper}>
-            <CustomeLink to="/">Home</CustomeLink>
-            <CustomeLink to="/about">About</CustomeLink>
-            <CustomeLink to="/offers">Offers</CustomeLink>
+            <CustomeLink to="/">Главная</CustomeLink>
+            <CustomeLink to="/about">О нас</CustomeLink>
+            <CustomeLink to="/offers">Услуги</CustomeLink>
             {/* <CustomeLink to="/prices">Prices</CustomeLink> */}
             <a className={style.parentListItem}>
-              <p className={style.text}>Prices</p>
+              <p className={style.text}>Цены</p>
               <ul className={style.list}>
                 <li className={style.innerList}>
-                  <CustomeLink to="/prices/general">General</CustomeLink>
+                  <CustomeLink to="/prices/general">Общее</CustomeLink>
                 </li>
                 <li className={style.innerList}>
-                  <CustomeLink to="/prices/prevention">Prevention</CustomeLink>
+                  <CustomeLink to="/prices/prevention">Профилактика</CustomeLink>
                 </li>
                 <li className={style.innerList}>
                   <CustomeLink to="/prices/endodontics">
-                    Endodontics
+                    Эндодонтия
                   </CustomeLink>
                 </li>
                 <li className={style.innerList}>
                   <CustomeLink to="/prices/orthodontics">
-                    Orthodontics
+                    Ортодонтия
                   </CustomeLink>
                 </li>
                 <li className={style.innerList}>
-                  <CustomeLink to="/prices/surgery">Surgery</CustomeLink>
+                  <CustomeLink to="/prices/surgery">
+                    Операция
+                    </CustomeLink>
                 </li>
                 <li className={style.innerList}>
                   <CustomeLink to="/prices/prosthetics">
-                    Prosthetics
+                    Протезирование
                   </CustomeLink>
                 </li>
                 <li className={style.innerList}>
                   <CustomeLink to="/prices/children">
-                    Kid's dentistry
+                    Детская стоматология
                   </CustomeLink>
                 </li>
                 <li className={style.innerList}>
-                  <CustomeLink to="/prices/xray">X-ray</CustomeLink>
+                  <CustomeLink to="/prices/xray">Рентген</CustomeLink>
                 </li>
               </ul>
             </a>
-            <CustomeLink to="/gallery">Gallery</CustomeLink>
-            <CustomeLink to="/contacts">Contacts</CustomeLink>
+            <CustomeLink to="/gallery">Галерея</CustomeLink>
+            <CustomeLink to="/contacts">Контакты</CustomeLink>
           </div>
           {/* className={style.Section1 + " " + style.Section2} */}
 

@@ -4,25 +4,25 @@ import Icons from "../../../images/sprite.svg";
 const Contacts = () => {
   return (
     <div className={style.wrapper}>
-      <h1 className={style.title}>contacts</h1>
+      <h1 className={style.title}>Контакты</h1>
       <p className={style.text}>
-        We work from Monday to Friday from 08:00 to 19:00. <br />
-        Saturday after pre-registration.
+        Мы открыты с понедельника по субботу с 9:00 по 17:00 <br />
+        Воскресенье не рабочий день.
       </p>
       <ul className={style.list}>
         <li className={style.item}>
           <svg className={style.icon}>
             <use xlinkHref={`${Icons}#icon-location`} />
           </svg>
-          <h3>Address</h3>
+          <h3>Адрес</h3>
           <a
             href="https://goo.gl/maps/5ymqvmsGVsiengHQA/"
             target="_blank"
             className={style.map}
             rel="noreferrer"
           >
-            al. Architects 10B <br />
-            54-115 Wroclaw
+            г. Бишкек<br />
+            Улица Токтогула, 244
           </a>
         </li>
         <li className={style.item}>
@@ -31,27 +31,27 @@ const Contacts = () => {
           </svg>
           <h3>Email</h3>
           <a href="mailto:info@example.com" className={style.email}>
-            kontakt@architekci.pl
+            nayaashin.99@gmail.com
           </a>
         </li>
         <li className={style.item}>
           <svg className={style.icon}>
             <use xlinkHref={`${Icons}#icon-phone`} />
           </svg>
-          <h3>Tel</h3>
-          <a href="tel:+996701102442" className={style.phone}>
-            +48 607 706 890
+          <h3>Телефон</h3>
+          <a href="tel:+996555170324" className={style.phone}>
+            +996 555 170 324
           </a>
         </li>
       </ul>
       <div>
         <div className={style.contact}>
-          <p className={style.contact_text}>Find us</p>
+          <p className={style.contact_text}>Как найти нас</p>
         </div>
         <ul className={style.list_icons}>
           <li className={style.list_item}>
             <a
-              href="https://www.instagram.com/natadent_stomatologia/"
+              href="https://www.instagram.com/triamed.kg"
               target="_blank"
               className={style.list_link}
               rel="noreferrer"
@@ -63,7 +63,7 @@ const Contacts = () => {
           </li>
           <li className={style.list_item}>
             <a
-              href="https://t.me/CreativeDentistry"
+              href="https://t.me/nayaashin"
               target="_blank"
               className={style.list_link}
               rel="noreferrer"
@@ -75,7 +75,7 @@ const Contacts = () => {
           </li>
           <li className={style.list_item}>
             <a
-              href="https://www.facebook.com/groups/215773488773090"
+              href="https://www.facebook.com/"
               target="_blank"
               className={style.list_link}
               rel="noreferrer"

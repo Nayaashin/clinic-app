@@ -49,11 +49,11 @@ const Form = () => {
     <>
       <form className={s.form} onSubmit={handleSubmit} autoComplete="off">
         <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
-          Feedback form
+          Обратная связь
         </h1>
-        <p className={s.text}>Fields marked with * are required</p>
+        <p className={s.text}>Поля помеченные * обязательны</p>
         <label className={s.label} htmlFor={nameInputId.current}>
-          Name *
+          Имя *
           <input
             className={s.input}
             type="text"
@@ -80,7 +80,7 @@ const Form = () => {
         </label>
 
         <label className={s.label} htmlFor={messageInputId.current}>
-          Message...
+          Напишите сообщение
           <input
             className={s.textarea}
             name="message"
@@ -89,7 +89,7 @@ const Form = () => {
           ></input>
         </label>
         <button className={s.formBtn} type="submit" disabled={!email && !name}>
-          Send
+          Отправить
         </button>
       </form>
     </>

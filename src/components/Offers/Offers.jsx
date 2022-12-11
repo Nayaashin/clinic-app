@@ -10,58 +10,56 @@ import style from "./Offers.module.scss";
 const Offers = () => {
   return (
     <div className="container">
-      <h1 className={style.title}>Our offers</h1>
+      <h1 className={style.title}>Услуги</h1>
       <span className={style.line}></span>
 
       <div className={style.general_wrapper}>
         <div className={style.part_list}>
           <div className={style.item}>
-            <img src={general} className={style.img} alt="General dentistry" />
+            <img src={general} className={style.img} alt="Общая стоматология" />
             <div>
-              <h2>General dentistry</h2>
+              <h2>Общая стоматология</h2>
               <p className={style.text}>
-                For the manufacture of fildivngs, we use the most modern
-                materials on the market.
+                Для изготовления насадок мы используем самые современные
+                материалы на рынке.
               </p>
             </div>
           </div>
           <div className={style.item}>
-            <img src={kids} className={style.img} alt="Children's dentistry" />
+            <img src={kids} className={style.img} alt="Детская стоматология" />
             <div>
-              <h2>Children's dentistry</h2>
+              <h2>Детская стоматология</h2>
               <p className={style.text}>
-                Individual approach to small patients, patience, reward system.
-                We focus on acquiring good habits that will pay off in the
-                future.
+                Индивидуальный подход к маленьким пациентам: терпение и система поощрений.
+                Мы сосредоточены на приобретении хороших привычек, которые окупятся в будущем.  
               </p>
             </div>
           </div>
           <div className={style.item}>
-            <img src={orto} className={style.img} alt="Orthodontics" />
+            <img src={orto} className={style.img} alt="Ортодонтия" />
             <div>
-              <h2>Orthodontics</h2>
+              <h2>Ортодонтия</h2>
               <p className={style.text}>
-                Experience at the Medical University allows us to help patients
-                with severe malocclusion.
+                Опыт полученный в медицинском университете позволяет нам помогать пациентам с выраженным нарушением прикуса.
               </p>
             </div>
           </div>
           <div className={style.item}>
-            <img src={rent} className={style.img} alt="x-ray" />
+            <img src={rent} className={style.img} alt="Рентген" />
             <div>
-              <h2>x-ray</h2>
+              <h2>Рентген</h2>
               <p className={style.text}>
-                Мы делаем 3 вида фотографий: панорамное фото всего зубного ряда,
-                боковых головок и фото отдельных зубов.
+                Мы делаем 3 вида рентгеновских снимков: панорамное фото всего зубного ряда,
+                боковых головок и также фото отдельных зубов.
               </p>
             </div>
           </div>
         </div>
         <div className={style.part_list}>
           <div className={style.item}>
-            <img src={prot} className={style.img} alt="Prosthetics" />
+            <img src={prot} className={style.img} alt="Протезирование" />
             <div>
-              <h2>Prosthetics</h2>
+              <h2>Протезирование</h2>
               <p className={style.text}>
                 We offer many types of prosthetic work, from porcelain to
                 all-ceramic. Collaboration with a dental technician allows you

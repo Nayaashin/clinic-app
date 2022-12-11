@@ -92,58 +92,58 @@ const xrayList = [
 const Prices = () => {
   return (
     <div className="container">
-      <h1 className={style.title}>Our Prices</h1>
+      <h1 className={style.title}>Наши цены</h1>
       <span className={style.line}></span>
       <div className={style.wrap}>
         <ul className={style.parentList}>
           <ListItem
-            title="General Dentistry"
+            title="Общая стоматология"
             list={generalList}
-            message="Anesthesia is included in the cost of procedures. `These prices are
-        indicative, optional and are not an offer within the meaning of the
-        first part of Article 66 of the Civil Code. The final cost is determined
-        during a medical consultation and an individual treatment plan.`"
+            message="Анестезия входит в стоимость процедур. `Эти цены
+            ориентировочные, необязательные и не являются офертой. Окончательная стоимость определяется
+            во время врачебной консультации и составления индивидуального плана лечения.`"
           />
           <span className={style.line2}></span>
           <ListItem
-            title="Prevention"
+            title="Профилактика"
             list={preventionList}
-            message="`These prices are indicative, not mandatory and are not an offer within the meaning of Art. 66 § 1 CC. The final cost is determined during a medical consultation and the creation of an individual treatment plan.`"
+            message="`Данные цены являются ориентировочными, не обязательными и не являются офертой. Окончательная стоимость определяется в ходе врачебной консультации и составления индивидуального плана лечения."
           />
           <span className={style.line2}></span>
           <ListItem
-            title="Endodontics / root canal treatment"
-            list={rootList}
+            title = "Эндодонтия / лечение корневых каналов"
+            list={rootList}   
           />
           <span className={style.line2}></span>
           <ListItem
-            title="Orthodontics"
+            title="Ортодонтия"
             list={ortoList}
-            message="`These prices are indicative, optional and are not an offer within the meaning of part one of Article 66 of the Civil Code. The final cost is determined during a medical consultation and an individual treatment plan.`"
+            message="`Указанные цены являются ориентировочными, необязательными и не являются офертой. Окончательная стоимость определяется во время врачебной консультации и индивидуального плана лечения.`"
           />
           <span className={style.line2}></span>
           <ListItem
-            title="Surgery / implantology"
+            title="
+            Операция / Имплантология"
             list={surgeryList}
-            message="`These prices are indicative, optional and are not a proposal in the sense of part one of Article 66 of the Civil Code. The final cost is determined during a medical consultation and an individual treatment plan.`"
+            message="`Указанные цены являются ориентировочными, необязательными и не являются офертой. Окончательная стоимость определяется во время врачебной консультации и индивидуального плана лечения.`"
           />
           <span className={style.line2}></span>
           <ListItem
-            title="Prosthetics"
+            title="Протезирование"
             list={prostheticsList}
-            message="`These prices are approximate, optional and do not constitute an offer within the meaning of Part 1 of Article 66 of the Civil Code. The final cost is determined during a medical consultation and an individual treatment plan.`"
+            message="`Указанные цены являются ориентировочными, необязательными и не являются офертой. Окончательная стоимость определяется во время врачебной консультации и индивидуального плана лечения.`"
           />
           <span className={style.line2}></span>
           <ListItem
-            title="Children's dentistry"
+            title="Детская стоматология"
             list={childrenList}
-            message="`These prices are indicative, optional and are not a proposal in the sense of part one of Article 66 of the Civil Code. The final cost is determined during a medical consultation and an individual treatment plan.`"
+            message="`Указанные цены являются ориентировочными, необязательными и не являются офертой. Окончательная стоимость определяется во время врачебной консультации и индивидуального плана лечения.`"
           />
           <span className={style.line2}></span>
           <ListItem
-            title="X-ray / panoramic images"
+            title="Рентгеновский снимок / Панорамный снимок"
             list={xrayList}
-            message="`These prices are indicative, optional and are not a proposal in the sense of part one of Article 66 of the Civil Code. The final cost is determined during a medical consultation and an individual treatment plan.`"
+            message="`Указанные цены являются ориентировочными, необязательными и не являются офертой. Окончательная стоимость определяется во время врачебной консультации и индивидуального плана лечения.`"
           />
           {/* <ListItem itemTitle="SecondTitle" /> */}
           {/* <li className={style.parentListItem}>

@@ -12,7 +12,7 @@ const Home = () => {
             <ul className={style.list}>
               <li className={style.list_item}>
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/triamed.kg"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -42,21 +42,20 @@ const Home = () => {
           <div className={style.content}>
             <div className={style.flex}>
               <img src={tooth} alt="" className={style.tooth} />
-              <p className={style.text_logo}>Your dantist</p>
+              <p className={style.text_logo}>Триамед</p>
             </div>
             <div className={style.wrapper}>
               <p className={style.text}>
-                <span className={style.logo}>Your dantist</span> is a modern
-                dental office in the city center. We invite children, adults as
-                well as the elderly. <br />
-                An experienced dental team is waiting for you at al. Architects
-                10B
+                <span className={style.logo}>Триамед</span> имеет современный
+                стоматологический кабинет в центре города. Приглашаем детей, взрослых
+                так же пожилых людей. <br />
+                Команда опытных стоматологов ждет вас по адресу г. Бишкек, ул. Токтогула, 244
               </p>
-              <a href="tel:+996701102442" className={style.phone_btn}>
+              <a href="tel:+996555170324" className={style.phone_btn}>
                 <svg className={style.icon}>
                   <use xlinkHref={`${Icons}#icon-smartphone`} />
                 </svg>
-                +996701102442
+                +996 555 170 324
               </a>
               <span className={style.line1}></span>
               <span className={style.line2}></span>
