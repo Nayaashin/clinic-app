@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const NotFoundPage = () => {
   return (
     <p>
-      no such page. Go <Link to="/" /> home
+      Страница не найдена. Вернуться на <Link to="/" /> Главная
     </p>
   );
 };
