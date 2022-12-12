@@ -115,7 +115,7 @@ function App() {
             path="/prices/prevention"
             element={
               <PricesPageLekalo
-                title="Prevention"
+                title="Профилактика"
                 list={preventionList}
                 message="`Данные цены являются ориентировочными, не обязательными и не являются офертой. Окончательная стоимость определяется в ходе врачебной консультации и составления индивидуального плана лечения.`"
               />
@@ -155,7 +155,7 @@ function App() {
             path="/prices/prosthetics"
             element={
               <PricesPageLekalo
-                title="Prosthetics"
+                title="Протезирование"
                 list={prostheticsList}
                 message="`Данные цены являются ориентировочными, не обязательными и не являются офертой. Окончательная стоимость определяется в ходе врачебной консультации и составления индивидуального плана лечения.`"
               />
