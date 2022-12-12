@@ -1,13 +1,13 @@
 import Icons from "../images/sprite.svg";
 
 const rootList = [
-  "teeth 1-3 - from 550 to 650 PLN",
-  "teeth 4-5 - from 650 - 750 PLN",
-  "teeth 6.7 - from 750 - 850 PLN",
-  "TREATMENT UNDER THE MICROSCOPE PLUS - 100% to the base price reendo (again root canal treatment) + 200 PLN to the starting price",
-  "temporary restoration for root canal treatment - 80 PLN",
-  "root canal removal - 300 PLN",
-  "removal of a broken tool - 300 PLN",
+  "1-3 зуба - 13000 сом",
+  "4-5 зубов - 15000 сом",
+  "6-7 зубов - 17000 сом",
+  "ЛЕЧЕНИЕ ПОД МИКРОСКОПОМ ПЛЮС по базовой цене (повторное лечение корневых каналов - 4000 cом)",
+  "Временная реставрация для лечения корневых каналов",
+  "Удаление корневых каналов - 6000 сом",
+  "Удаление сломанного зуба - 6000 сом",
 ];
 
 const PricesEndodonticsPage = () => {

@@ -54,7 +54,7 @@ const Header = () => {
                 </li>
                 <li className={style.innerList}>
                   <CustomeLink to="/prices/surgery">
-                    Операция
+                    Хирургия
                     </CustomeLink>
                 </li>
                 <li className={style.innerList}>

@@ -41,7 +41,7 @@ const NavMob = ({ isOpenModal, handleClose }) => {
                 <CustomeLink to="/prices/orthodontics">Ортодонтия</CustomeLink>
               </li>
               <li>
-                <CustomeLink to="/prices/surgery">Операция</CustomeLink>
+                <CustomeLink to="/prices/surgery">Хирургия</CustomeLink>
               </li>
               <li>
                 <CustomeLink to="/prices/prosthetics">Протезирование</CustomeLink>

@@ -36,7 +36,7 @@
 .icon_close {
     width: 26px;
     height: 25px;
-    stroke: orange;
+    stroke: rgb(72, 45, 170);
     display: flex;
 }
 .ItemList{
@@ -47,8 +47,8 @@
     color: lightslategrey;
 }
 .ItemList:hover {
-    color: orange;
-    background-image: repeating-linear-gradient(to top, orange, transparent 5px 50px);
+    color: rgb(89, 121, 151);
+    background-image: repeating-linear-gradient(to top, rgb(107, 153, 184), transparent 5px 50px);
 }
 .absolute{
     position: absolute;

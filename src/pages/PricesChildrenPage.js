@@ -1,13 +1,12 @@
 import Icons from "../images/sprite.svg";
 
 const childrenList = [
-  "dental examination - 120 PLN",
-  "anesthesia during treatment - included filling of a deciduous tooth - 160 PLN",
-  "permanent tooth filling - 200-300 PLN",
-  "extended sealing - 120 PLN",
-  "therapeutic bandage - PLN 150impregnation - 120 PLN",
-  "fluoridation - 120 PLN",
-  "deciduous tooth removal - 150 PLN",
+  "Стоматологический осмотр - 2000 сом",
+  "Анестезия во время лечения (включено пломбирование молочного зуба) - 3000 сом",
+  "Пломбирование постоянного зуба - 6000 сом",
+  "Расширенная пломбировка - 3000 сом",
+  "Лечебная повязка - 3000 сом",
+  "Удаление молочных зубов - 4000 сом",
 ];
 
 const PricesChildrenPage = () => {

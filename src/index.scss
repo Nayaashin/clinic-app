@@ -141,7 +141,7 @@ code {
 .prices_title {
   padding: 10px 0 5px 0;
   font-size: 18px;
-  color: orange;
+  color: rgb(97, 91, 170);
   // text-align: center;
 
   @media screen and (min-width: 768px) {
@@ -161,7 +161,7 @@ code {
   text-align: center;
   width: 70px;
   margin: 0px auto 10px;
-  border: 1px dotted orange;
+  border: 1px dotted rgb(67, 59, 192);
   @media screen and (min-width: 768px) {
     width: 100px;
     margin-bottom: 40px;
@@ -192,7 +192,7 @@ code {
   top: 3px;
   width: 10px;
   height: 10px;
-  fill: orange;
+  fill: rgb(87, 110, 141);
   @media screen and (min-width: 768px) {
     top: 7px;
   }

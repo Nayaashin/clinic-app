@@ -6,7 +6,7 @@ const ContactsPage = () => {
     <div className="container">
       <div className="aboutpage_wrapper">
         <Form />
-        <Contacts />
+        <Contacts />  
       </div>
     </div>
   );

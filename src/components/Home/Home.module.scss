@@ -158,7 +158,7 @@
 .phone_btn{
     width: 160px;
     height: 35px;
-    background-color: orange;
+    background-color:rgb(42, 42, 124);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,10 +169,10 @@
     &:hover, 
     &:focus{
         background-color: black;
-        color: orange;
+        color: rgb(116, 143, 194);
 
         & .icon{
-            fill: orange;
+            fill:rgb(116, 143, 194);
         }
         }
     @media screen and (min-width: 480px) {
@@ -225,7 +225,7 @@
 
     &:hover,
     &:focus {
-        fill: orange;
+        fill:rgb(83, 76, 180);
     }
     @media screen and (min-width: 768px) {
         width: 28px;

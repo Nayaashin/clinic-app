@@ -1,14 +1,14 @@
 import Icons from "../images/sprite.svg";
 
 const preventionList = [
-  "scaling - 150 PLN",
-  "sandblasting + scale + fluoridation - 250-300 PLN",
+  "Глубокая чистка зубов - 3000 сом",
+  "Пескоструйная стоматология + Скейлинг зубов - 6000 сом",
 ];
 
 const PricesPreventionPage = () => {
   return (
     <div className="container">
-      <h1 className="prices_title">Prevention</h1>
+      <h1 className="prices_title">Профилактика</h1>
       <span className="prices_line"></span>
       <div>
         <ul className="prices_list">
@@ -25,9 +25,9 @@ const PricesPreventionPage = () => {
         </ul>
       </div>
       <p className="prices_disc">
-        `These prices are indicative, not mandatory and are not an offer within
-        the meaning of Art. 66 § 1 CC. The final cost is determined during a
-        medical consultation and the creation of an individual treatment plan.`
+        `Анестезия входит в стоимость процедур. Эти цены
+        ориентировочные, необязательные и не являются офертой. Окончательная стоимость определяется
+        во время врачебной консультации и составления индивидуального плана лечения.`
       </p>
     </div>
   );
