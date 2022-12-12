@@ -13,7 +13,7 @@ const ortoList = [
 const PricesOrthodonticsPage = () => {
   return (
     <div className="container">
-      <h1 className="prices_title">Orthodontics</h1>
+      <h1 className="prices_title">Ортодонтия</h1>
       <span className="prices_line"></span>
       <div>
         <ul className="prices_list">

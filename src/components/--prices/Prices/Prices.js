@@ -75,7 +75,7 @@ const xrayList = [
 const Prices = () => {
   return (
     <div className="container">
-      <h1 className={style.title}>Наши цены</h1>
+      <h1 className={style.title}>Цены</h1>
       <span className={style.line}></span>
       <div className={style.wrap}>
         <ul className={style.parentList}>

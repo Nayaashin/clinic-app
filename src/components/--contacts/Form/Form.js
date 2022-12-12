@@ -60,7 +60,7 @@ const Form = () => {
             name="name"
             value={name}
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-            title="Name may contain only letters"
+            title="Имя может содержать только буквы"
             onChange={handleChange}
             id={nameInputId}
             required
